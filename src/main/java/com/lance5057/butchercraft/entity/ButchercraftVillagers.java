@@ -35,7 +35,7 @@ public class ButchercraftVillagers {
 
 	public static final RegistryObject<VillagerProfession> SLAUGHTER_PROFESSION = PROFESSIONS.register(
 			"slaughter_profession",
-			() -> new VillagerProfession("slaugther",
+			() -> new VillagerProfession("slaughter",
 					holder -> holder.value().equals(ButchercraftVillagers.SLAUGHTER_POI.get()),
 					holder -> holder.value().equals(ButchercraftVillagers.SLAUGHTER_POI.get()), ImmutableSet.of(),
 					ImmutableSet.of(), SoundEvents.VILLAGER_WORK_BUTCHER));

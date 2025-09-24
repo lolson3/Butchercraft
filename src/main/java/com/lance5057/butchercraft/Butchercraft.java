@@ -47,6 +47,7 @@ public class Butchercraft {
 		ButchercraftMobEffects.register(modEventBus);
 		ButchercraftFluids.register(modEventBus);
 		ButchercraftVillagers.register(modEventBus);
+		ButchercraftParticles.register(modEventBus);
 	}
 
 	public void setupClient(FMLClientSetupEvent event) {
